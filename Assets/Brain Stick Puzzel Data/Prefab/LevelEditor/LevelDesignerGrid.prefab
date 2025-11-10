@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1108327381119380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 224735027963605148}
+  - component: {fileID: 114127926325905072}
+  m_Layer: 5
+  m_Name: LevelDesignerGrid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &224735027963605148
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108327381119380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 500, y: 500}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &114127926325905072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108327381119380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f1347cb4b3dc04abd8ca2c7dc21a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridSize: {x: 450, y: 450}
+  gridOffset: {x: -150, y: -150}
+  cellSize: {x: 150, y: 150}
+  squrePointPrefab: {fileID: 114883390469499262, guid: e4bb9f5fde0c4a742b49bcf2c305ba69,
+    type: 3}
+  triangelPointPrefab: {fileID: 114474123834302984, guid: 764b10ea23a9b4141a50eae8693d39fd,
+    type: 3}
+  isTriangle: 0
+  isEquation: 0
+  m_MatchesPrefab: {fileID: 114055631917072252, guid: c23cfcd0fa0d861429d921d3d54057cb,
+    type: 3}
+  m_ChildMatchPrefab: {fileID: 1521852300092196, guid: c23cfcd0fa0d861429d921d3d54057cb,
+    type: 3}
+  m_EquationLevelPrefab: {fileID: 114165250450638994, guid: d65cfe3a954344e449cd1aae2b13fcb0,
+    type: 3}
+  totalMoves: 10
+  usedMoves: 0
+  listMatchTransform: {fileID: 0}
+  listMatchPadding: 60
+  AllMatches: []
+  listNewMatches: []
+  listEmptyTransform: []
+  gameOverPopup: {fileID: 0}
+  gameOverTitleTxt: {fileID: 0}
+  hintTotalTxt: {fileID: 0}
+  nextBtn: {fileID: 0}
+  MatchesUsedColor: {r: 0, g: 0, b: 0, a: 0}
+  NormalColor: {r: 0, g: 0, b: 0, a: 0}
+  MatchParentColorGray: {r: 0, g: 0, b: 0, a: 0}
+  currentLevel: {fileID: 0}
+  fillMatchesSize: {x: 0, y: 0}
+  objectiveHandlerScript: {fileID: 0}
+  matchesListInGame: []
+  matchesDataList: []

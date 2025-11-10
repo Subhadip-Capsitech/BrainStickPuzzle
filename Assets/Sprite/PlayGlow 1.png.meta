@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 2aeda1eb9561ccc43b41ce28bce614d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5535668638937899167
+    second: PlayGlow 1_0
+  - first:
+      213: 7899993781774632930
+    second: PlayGlow 1_1
+  - first:
+      213: -6583874659364449312
+    second: PlayGlow 1_2
+  - first:
+      213: 2092571056204330490
+    second: PlayGlow 1_3
+  - first:
+      213: -450045015242072676
+    second: PlayGlow 1_4
+  - first:
+      213: 5907636611354601632
+    second: PlayGlow 1_5
+  - first:
+      213: 8444088251019216832
+    second: PlayGlow 1_6
+  - first:
+      213: 5354463421752878070
+    second: PlayGlow 1_7
+  - first:
+      213: -3143139807432555468
+    second: PlayGlow 1_8
+  - first:
+      213: -6944409132488777680
+    second: PlayGlow 1_9
+  - first:
+      213: 8005558034763380794
+    second: PlayGlow 1_10
+  - first:
+      213: 288557997930998627
+    second: PlayGlow 1_11
+  - first:
+      213: 7622826348196827489
+    second: PlayGlow 1_12
+  - first:
+      213: -6125375091172688949
+    second: PlayGlow 1_13
+  - first:
+      213: 8759956449634242805
+    second: PlayGlow 1_14
+  - first:
+      213: -8714794009028072279
+    second: PlayGlow 1_15
+  - first:
+      213: -7845510764742280982
+    second: PlayGlow 1_16
+  - first:
+      213: -1686135801935615653
+    second: PlayGlow 1_17
+  - first:
+      213: 159070036337662217
+    second: PlayGlow 1_18
+  - first:
+      213: -5054464429392850026
+    second: PlayGlow 1_19
+  - first:
+      213: -4060837090992828163
+    second: PlayGlow 1_20
+  - first:
+      213: -692374061499491519
+    second: PlayGlow 1_21
+  - first:
+      213: -213259235817254261
+    second: PlayGlow 1_22
+  - first:
+      213: 6765009907434987085
+    second: PlayGlow 1_23
+  - first:
+      213: 623660853574232824
+    second: PlayGlow 1_24
+  - first:
+      213: 2432552424180705003
+    second: PlayGlow 1_25
+  - first:
+      213: 8197045880065582805
+    second: PlayGlow 1_26
+  - first:
+      213: -6087076287311985227
+    second: PlayGlow 1_27
+  - first:
+      213: 6146874013637811366
+    second: PlayGlow 1_28
+  - first:
+      213: 1333556038593700528
+    second: PlayGlow 1_29
+  - first:
+      213: -7505360045362449499
+    second: PlayGlow 1_30
+  - first:
+      213: -925119334830022541
+    second: PlayGlow 1_31
+  - first:
+      213: 8998015843768916099
+    second: PlayGlow 1_32
+  - first:
+      213: -7695417018696843169
+    second: PlayGlow 1_33
+  - first:
+      213: 4539842069105178469
+    second: PlayGlow 1_34
+  - first:
+      213: 5390355768065385195
+    second: PlayGlow 1_35
+  - first:
+      213: -2216706741073144811
+    second: PlayGlow 1_36
+  - first:
+      213: 2356811590547861694
+    second: PlayGlow 1_37
+  - first:
+      213: 4989049686052320041
+    second: PlayGlow 1_38
+  - first:
+      213: 4452934762171327022
+    second: PlayGlow 1_39
+  - first:
+      213: -7285756381981491458
+    second: PlayGlow 1_40
+  - first:
+      213: 5151637261047064241
+    second: PlayGlow 1_41
+  - first:
+      213: 1749765475074007955
+    second: PlayGlow 1_42
+  - first:
+      213: 7510839124779929796
+    second: PlayGlow 1_43
+  - first:
+      213: -4573100193762626819
+    second: PlayGlow 1_44
+  - first:
+      213: -1560278389301905762
+    second: PlayGlow 1_45
+  - first:
+      213: 5625174233515785086
+    second: PlayGlow 1_46
+  - first:
+      213: -2559377543056277303
+    second: PlayGlow 1_47
+  - first:
+      213: -1690577836117753078
+    second: PlayGlow 1_48
+  - first:
+      213: 5770363654819070751
+    second: PlayGlow 1_49
+  - first:
+      213: 4992258302006767975
+    second: PlayGlow 1_50
+  - first:
+      213: 3265696123858800082
+    second: PlayGlow 1_51
+  - first:
+      213: -5086140957890932676
+    second: PlayGlow 1_52
+  - first:
+      213: 7112343012808714948
+    second: PlayGlow 1_53
+  - first:
+      213: 1022904311635645212
+    second: PlayGlow 1_54
+  - first:
+      213: 1020617298887505123
+    second: PlayGlow 1_55
+  - first:
+      213: -2783059269078076103
+    second: PlayGlow 1_56
+  - first:
+      213: -4736674968452737328
+    second: PlayGlow 1_57
+  - first:
+      213: 5240826061101340688
+    second: PlayGlow 1_58
+  - first:
+      213: -7639915534719396783
+    second: PlayGlow 1_59
+  - first:
+      213: -7670455921849521202
+    second: PlayGlow 1_60
+  - first:
+      213: -4307151305252143263
+    second: PlayGlow 1_61
+  - first:
+      213: 5400998729406105066
+    second: PlayGlow 1_62
+  - first:
+      213: 6668654455726415061
+    second: PlayGlow 1_63
+  - first:
+      213: -2021983269054155917
+    second: PlayGlow 1_64
+  - first:
+      213: 4219260925853668873
+    second: PlayGlow 1_65
+  - first:
+      213: 2321647524698825078
+    second: PlayGlow 1_66
+  - first:
+      213: 2984346784704813924
+    second: PlayGlow 1_67
+  - first:
+      213: 6195951085361881473
+    second: PlayGlow 1_68
+  - first:
+      213: -3693588762798141053
+    second: PlayGlow 1_69
+  - first:
+      213: -3152126091693473636
+    second: PlayGlow 1_70
+  - first:
+      213: 1249075067031450367
+    second: PlayGlow 1_71
+  - first:
+      213: 2097380235116507589
+    second: PlayGlow 1_72
+  - first:
+      213: -6409080423884071130
+    second: PlayGlow 1_73
+  - first:
+      213: 5963425130981246770
+    second: PlayGlow 1_74
+  - first:
+      213: 3627745253227846810
+    second: PlayGlow 1_75
+  - first:
+      213: -7642671287177282864
+    second: PlayGlow 1_76
+  - first:
+      213: -556383680297362611
+    second: PlayGlow 1_77
+  - first:
+      213: -9014466065224926495
+    second: PlayGlow 1_78
+  - first:
+      213: 1423734574680571139
+    second: PlayGlow 1_79
+  - first:
+      213: -2057214165981974548
+    second: PlayGlow 1_80
+  - first:
+      213: 6741823502583170829
+    second: PlayGlow 1_81
+  - first:
+      213: -8344056708537806273
+    second: PlayGlow 1_82
+  - first:
+      213: -586410447888933530
+    second: PlayGlow 1_83
+  - first:
+      213: -5486351246480854324
+    second: PlayGlow 1_84
+  - first:
+      213: -5364204807789836961
+    second: PlayGlow 1_85
+  - first:
+      213: 1395761822517499885
+    second: PlayGlow 1_86
+  - first:
+      213: 8261070242662321649
+    second: PlayGlow 1_87
+  - first:
+      213: 4278395105193700577
+    second: PlayGlow 1_88
+  - first:
+      213: 8733383899712636142
+    second: PlayGlow 1_89
+  - first:
+      213: -38754006619688538
+    second: PlayGlow 1_90
+  - first:
+      213: -119049190539863749
+    second: PlayGlow 1_91
+  - first:
+      213: 7194026600475055836
+    second: PlayGlow 1_92
+  - first:
+      213: 8354809779692834971
+    second: PlayGlow 1_93
+  - first:
+      213: -6817222042158268069
+    second: PlayGlow 1_94
+  - first:
+      213: 6610733707619003836
+    second: PlayGlow 1_95
+  - first:
+      213: 943502954044686654
+    second: PlayGlow 1_96
+  - first:
+      213: -8158346707466356332
+    second: PlayGlow 1_97
+  - first:
+      213: -9183759957512847856
+    second: PlayGlow 1_98
+  - first:
+      213: -4147766148602020665
+    second: PlayGlow 1_99
+  - first:
+      213: -3189009958440621
+    second: PlayGlow 1_100
+  - first:
+      213: -460965408287237341
+    second: PlayGlow 1_101
+  - first:
+      213: 5211659724797323818
+    second: PlayGlow 1_102
+  - first:
+      213: 2772398772171319521
+    second: PlayGlow 1_103
+  - first:
+      213: 279669798339761514
+    second: PlayGlow 1_104
+  - first:
+      213: 8048483261851794795
+    second: PlayGlow 1_105
+  - first:
+      213: 2866537992922407869
+    second: PlayGlow 1_106
+  - first:
+      213: -4037511168356264076
+    second: PlayGlow 1_107
+  - first:
+      213: -6220089079106982551
+    second: PlayGlow 1_108
+  - first:
+      213: 2798523276872088891
+    second: PlayGlow 1_109
+  - first:
+      213: -9171634952860600515
+    second: PlayGlow 1_110
+  - first:
+      213: -522382192414734250
+    second: PlayGlow 1_111
+  - first:
+      213: 6233137110561699263
+    second: PlayGlow 1_112
+  - first:
+      213: -5758377463078286835
+    second: PlayGlow 1_113
+  - first:
+      213: 1841297243132748014
+    second: PlayGlow 1_114
+  - first:
+      213: 8121840345024462857
+    second: PlayGlow 1_115
+  - first:
+      213: 1438097007075492397
+    second: PlayGlow 1_116
+  - first:
+      213: -1580267885893151340
+    second: PlayGlow 1_117
+  - first:
+      213: 8593769099160132942
+    second: PlayGlow 1_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayGlow 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 956
+        height: 951
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f16ddb3ba5d23b0800000000000000
+      internalID: -5535668638937899167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_1
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 938
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7c8721d7a62ad60800000000000000
+      internalID: 7899993781774632930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 943
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3d2e251e061a4a0800000000000000
+      internalID: -6583874659364449312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_3
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 948
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5b258e94e4a0d10800000000000000
+      internalID: 2092571056204330490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 941
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d9f8d617e11c9f0800000000000000
+      internalID: -450045015242072676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 941
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a822e1b2342cf150800000000000000
+      internalID: 5907636611354601632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_6
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 949
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7cc0e868d6f2570800000000000000
+      internalID: 8444088251019216832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 931
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f32768ec10ee4a40800000000000000
+      internalID: 5354463421752878070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 946
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434c79a8ff25164d0800000000000000
+      internalID: -3143139807432555468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 942
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0302703efa080af90800000000000000
+      internalID: -6944409132488777680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_10
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 926
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3878da0e94791f60800000000000000
+      internalID: 8005558034763380794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 943
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b66c368f9210400800000000000000
+      internalID: 288557997930998627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_12
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 940
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16192cc1d28b9c960800000000000000
+      internalID: 7622826348196827489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_13
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 940
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb30a6eecb4efaa0800000000000000
+      internalID: -6125375091172688949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 946
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0575c8afd919970800000000000000
+      internalID: 8759956449634242805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_15
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 950
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aced219505de0780800000000000000
+      internalID: -8714794009028072279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_16
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 944
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8780ad6852f1390800000000000000
+      internalID: -7845510764742280982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_17
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 934
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b592f82fb64a998e0800000000000000
+      internalID: -1686135801935615653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_18
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 941
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9099052fa51253200800000000000000
+      internalID: 159070036337662217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 942
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6931134916fead9b0800000000000000
+      internalID: -5054464429392850026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 935
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df054a45e2205a7c0800000000000000
+      internalID: -4060837090992828163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_21
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 943
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bd0ac95713466f0800000000000000
+      internalID: -692374061499491519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_22
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 939
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b829a0cdad95a0df0800000000000000
+      internalID: -213259235817254261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 935
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e19a21ba422ed50800000000000000
+      internalID: 6765009907434987085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_24
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 948
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8faeb95fd30b7a800800000000000000
+      internalID: 623660853574232824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_25
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 940
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be66ec4aa8922c120800000000000000
+      internalID: 2432552424180705003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_26
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 941
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d663e05cc1c1c170800000000000000
+      internalID: 8197045880065582805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_27
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 947
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5c01e0e5c568ba0800000000000000
+      internalID: -6087076287311985227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_28
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 940
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac16fd09551e4550800000000000000
+      internalID: 6146874013637811366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_29
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 946
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b26470d62eb18210800000000000000
+      internalID: 1333556038593700528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_30
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 942
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3f2c8cdca97d790800000000000000
+      internalID: -7505360045362449499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_31
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 928
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3706c90ddd05923f0800000000000000
+      internalID: -925119334830022541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_32
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 946
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388de238cbf5fdc70800000000000000
+      internalID: 8998015843768916099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 943
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50441a5ef2643590800000000000000
+      internalID: -7695417018696843169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_34
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 940
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56773690f42c00f30800000000000000
+      internalID: 4539842069105178469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_35
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 940
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2e38003046eca40800000000000000
+      internalID: 5390355768065385195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_36
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 940
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5141f1fa6fcac31e0800000000000000
+      internalID: -2216706741073144811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_37
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 943
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0f02997a315b020800000000000000
+      internalID: 2356811590547861694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_38
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 948
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233cef914aac3540800000000000000
+      internalID: 4989049686052320041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_39
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 950
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22e533d2900ccd30800000000000000
+      internalID: 4452934762171327022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_40
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 944
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe35f31c2bc3ea90800000000000000
+      internalID: -7285756381981491458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_41
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 951
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6606c5bca4e7740800000000000000
+      internalID: 5151637261047064241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_42
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 942
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393670ecd6a684810800000000000000
+      internalID: 1749765475074007955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_43
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 939
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c01d9dc36cdb3860800000000000000
+      internalID: 7510839124779929796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_44
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 947
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df232846a951980c0800000000000000
+      internalID: -4573100193762626819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_45
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 938
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96f0f65217c85ae0800000000000000
+      internalID: -1560278389301905762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_46
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 938
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b73647922a01e40800000000000000
+      internalID: 5625174233515785086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_47
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 935
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c0c40c4fa34b7cd0800000000000000
+      internalID: -2559377543056277303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_48
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 938
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a038d054a6cd988e0800000000000000
+      internalID: -1690577836117753078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 938
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13c05edb23741050800000000000000
+      internalID: 5770363654819070751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_50
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 938
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761bb1eb970184540800000000000000
+      internalID: 4992258302006767975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_51
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 925
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd49fe7255125d20800000000000000
+      internalID: 3265696123858800082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_52
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 943
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30985f0fb56a69b0800000000000000
+      internalID: -5086140957890932676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_53
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 939
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cae13f894e14b260800000000000000
+      internalID: 7112343012808714948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_54
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 936
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1312464d06123e00800000000000000
+      internalID: 1022904311635645212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_55
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 938
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4fecf9606f92e00800000000000000
+      internalID: 1020617298887505123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_56
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 941
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9353ebd07569069d0800000000000000
+      internalID: -2783059269078076103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_57
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 939
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6d3e05633f34eb0800000000000000
+      internalID: -4736674968452737328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_58
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 935
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0181e8519872bb840800000000000000
+      internalID: 5240826061101340688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_59
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 928
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154df079c4199f590800000000000000
+      internalID: -7639915534719396783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_60
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 934
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb2ed89af01d8590800000000000000
+      internalID: -7670455921849521202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_61
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 943
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ff59845bce934c0800000000000000
+      internalID: -4307151305252143263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_62
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 939
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5469a8ab334fa40800000000000000
+      internalID: 5400998729406105066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_63
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 934
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc166b35e1db8c50800000000000000
+      internalID: 6668654455726415061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 940
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3737e320ee870f3e0800000000000000
+      internalID: -2021983269054155917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_65
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 935
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 906913c1573dd8a30800000000000000
+      internalID: 4219260925853668873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_66
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 936
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671a6538f16283020800000000000000
+      internalID: 2321647524698825078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_67
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 938
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46bd8e4c6978a6920800000000000000
+      internalID: 2984346784704813924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_68
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 933
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181e0b04fa07cf550800000000000000
+      internalID: 6195951085361881473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_69
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 940
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381da07f69cbdbcc0800000000000000
+      internalID: -3693588762798141053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_70
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 923
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90ce5135066144d0800000000000000
+      internalID: -3152126091693473636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_71
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 937
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2f434d72b955110800000000000000
+      internalID: 1249075067031450367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_72
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 936
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c17b0126346b1d10800000000000000
+      internalID: 2097380235116507589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_73
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 935
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fda7daf4f5e07a0800000000000000
+      internalID: -6409080423884071130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_74
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 932
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23746c0af8752c250800000000000000
+      internalID: 5963425130981246770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_75
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 938
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c51425617585230800000000000000
+      internalID: 3627745253227846810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_76
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 919
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da78b8f4f6cfe590800000000000000
+      internalID: -7642671287177282864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 685
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b1d099df35748f0800000000000000
+      internalID: -556383680297362611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_78
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 680
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea7476dfde26e280800000000000000
+      internalID: -9014466065224926495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30df64a6d0f12c310800000000000000
+      internalID: 1423734574680571139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_80
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 670
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef2eb99d9e4373e0800000000000000
+      internalID: -2057214165981974548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 658
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0789d181c4cf8d50800000000000000
+      internalID: 6741823502583170829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_82
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 664
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3293edd1a4f33c80800000000000000
+      internalID: -8344056708537806273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_83
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 590
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d9009fdc6acd7f0800000000000000
+      internalID: -586410447888933530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 598
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2bc78fb909cd3b0800000000000000
+      internalID: -5486351246480854324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 584
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f558e39e5248e85b0800000000000000
+      internalID: -5364204807789836961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_86
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 570
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de715368bfdbe5310800000000000000
+      internalID: 1395761822517499885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 561
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd007edd9735a270800000000000000
+      internalID: 8261070242662321649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_88
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 541
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec27d52ea9ef5b30800000000000000
+      internalID: 4278395105193700577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_89
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 551
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4cc75a266333970800000000000000
+      internalID: 8733383899712636142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a17fc1bf61567ff0800000000000000
+      internalID: -38754006619688538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_91
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 510
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39d217546d095ef0800000000000000
+      internalID: -119049190539863749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_92
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 505
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6d60ad31156d360800000000000000
+      internalID: 7194026600475055836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b901d8c9a3f32f370800000000000000
+      internalID: 8354809779692834971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_94
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 424
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51813efbac5461a0800000000000000
+      internalID: -6817222042158268069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbde45b284b0ebb50800000000000000
+      internalID: 6610733707619003836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_96
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 388
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e318d5410fef71d00800000000000000
+      internalID: 943502954044686654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_97
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 400
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4997df2f4eab7ce80800000000000000
+      internalID: -8158346707466356332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e7dfde9fabc8080800000000000000
+      internalID: -9183759957512847856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccbf25e9ac2076c0800000000000000
+      internalID: -4147766148602020665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_100
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 313
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351fd32cc9ba4fff0800000000000000
+      internalID: -3189009958440621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 282
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bdb4947625a99f0800000000000000
+      internalID: -460965408287237341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_102
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 273
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a21ca38e8835840800000000000000
+      internalID: 5211659724797323818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_103
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e820079ef9897620800000000000000
+      internalID: 2772398772171319521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a655278233691e300800000000000000
+      internalID: 279669798339761514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_105
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 249
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d7a5b42e4f1bf60800000000000000
+      internalID: 8048483261851794795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_106
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db32d43fd1df7c720800000000000000
+      internalID: 2866537992922407869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_107
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477d379ebf0e7f7c0800000000000000
+      internalID: -4037511168356264076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_108
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96daa8020fdcda9a0800000000000000
+      internalID: -6220089079106982551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_109
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d7f95d71a56d620800000000000000
+      internalID: 2798523276872088891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_110
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37ff219a9ec7b080800000000000000
+      internalID: -9171634952860600515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_111
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6584128e92020c8f0800000000000000
+      internalID: -522382192414734250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_112
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5b55f6d2d808650800000000000000
+      internalID: 6233137110561699263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_113
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a8a9ed4322610b0800000000000000
+      internalID: -5758377463078286835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_114
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee065d6461a9d8910800000000000000
+      internalID: 1841297243132748014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_115
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9008e9f23c296b070800000000000000
+      internalID: 8121840345024462857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_116
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22894bcb9525f310800000000000000
+      internalID: 1438097007075492397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_117
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495916bfab2c11ae0800000000000000
+      internalID: -1580267885893151340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayGlow 1_118
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d1b25c673334770800000000000000
+      internalID: 8593769099160132942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlayGlow 1_0: -5535668638937899167
+      PlayGlow 1_1: 7899993781774632930
+      PlayGlow 1_10: 8005558034763380794
+      PlayGlow 1_100: -3189009958440621
+      PlayGlow 1_101: -460965408287237341
+      PlayGlow 1_102: 5211659724797323818
+      PlayGlow 1_103: 2772398772171319521
+      PlayGlow 1_104: 279669798339761514
+      PlayGlow 1_105: 8048483261851794795
+      PlayGlow 1_106: 2866537992922407869
+      PlayGlow 1_107: -4037511168356264076
+      PlayGlow 1_108: -6220089079106982551
+      PlayGlow 1_109: 2798523276872088891
+      PlayGlow 1_11: 288557997930998627
+      PlayGlow 1_110: -9171634952860600515
+      PlayGlow 1_111: -522382192414734250
+      PlayGlow 1_112: 6233137110561699263
+      PlayGlow 1_113: -5758377463078286835
+      PlayGlow 1_114: 1841297243132748014
+      PlayGlow 1_115: 8121840345024462857
+      PlayGlow 1_116: 1438097007075492397
+      PlayGlow 1_117: -1580267885893151340
+      PlayGlow 1_118: 8593769099160132942
+      PlayGlow 1_12: 7622826348196827489
+      PlayGlow 1_13: -6125375091172688949
+      PlayGlow 1_14: 8759956449634242805
+      PlayGlow 1_15: -8714794009028072279
+      PlayGlow 1_16: -7845510764742280982
+      PlayGlow 1_17: -1686135801935615653
+      PlayGlow 1_18: 159070036337662217
+      PlayGlow 1_19: -5054464429392850026
+      PlayGlow 1_2: -6583874659364449312
+      PlayGlow 1_20: -4060837090992828163
+      PlayGlow 1_21: -692374061499491519
+      PlayGlow 1_22: -213259235817254261
+      PlayGlow 1_23: 6765009907434987085
+      PlayGlow 1_24: 623660853574232824
+      PlayGlow 1_25: 2432552424180705003
+      PlayGlow 1_26: 8197045880065582805
+      PlayGlow 1_27: -6087076287311985227
+      PlayGlow 1_28: 6146874013637811366
+      PlayGlow 1_29: 1333556038593700528
+      PlayGlow 1_3: 2092571056204330490
+      PlayGlow 1_30: -7505360045362449499
+      PlayGlow 1_31: -925119334830022541
+      PlayGlow 1_32: 8998015843768916099
+      PlayGlow 1_33: -7695417018696843169
+      PlayGlow 1_34: 4539842069105178469
+      PlayGlow 1_35: 5390355768065385195
+      PlayGlow 1_36: -2216706741073144811
+      PlayGlow 1_37: 2356811590547861694
+      PlayGlow 1_38: 4989049686052320041
+      PlayGlow 1_39: 4452934762171327022
+      PlayGlow 1_4: -450045015242072676
+      PlayGlow 1_40: -7285756381981491458
+      PlayGlow 1_41: 5151637261047064241
+      PlayGlow 1_42: 1749765475074007955
+      PlayGlow 1_43: 7510839124779929796
+      PlayGlow 1_44: -4573100193762626819
+      PlayGlow 1_45: -1560278389301905762
+      PlayGlow 1_46: 5625174233515785086
+      PlayGlow 1_47: -2559377543056277303
+      PlayGlow 1_48: -1690577836117753078
+      PlayGlow 1_49: 5770363654819070751
+      PlayGlow 1_5: 5907636611354601632
+      PlayGlow 1_50: 4992258302006767975
+      PlayGlow 1_51: 3265696123858800082
+      PlayGlow 1_52: -5086140957890932676
+      PlayGlow 1_53: 7112343012808714948
+      PlayGlow 1_54: 1022904311635645212
+      PlayGlow 1_55: 1020617298887505123
+      PlayGlow 1_56: -2783059269078076103
+      PlayGlow 1_57: -4736674968452737328
+      PlayGlow 1_58: 5240826061101340688
+      PlayGlow 1_59: -7639915534719396783
+      PlayGlow 1_6: 8444088251019216832
+      PlayGlow 1_60: -7670455921849521202
+      PlayGlow 1_61: -4307151305252143263
+      PlayGlow 1_62: 5400998729406105066
+      PlayGlow 1_63: 6668654455726415061
+      PlayGlow 1_64: -2021983269054155917
+      PlayGlow 1_65: 4219260925853668873
+      PlayGlow 1_66: 2321647524698825078
+      PlayGlow 1_67: 2984346784704813924
+      PlayGlow 1_68: 6195951085361881473
+      PlayGlow 1_69: -3693588762798141053
+      PlayGlow 1_7: 5354463421752878070
+      PlayGlow 1_70: -3152126091693473636
+      PlayGlow 1_71: 1249075067031450367
+      PlayGlow 1_72: 2097380235116507589
+      PlayGlow 1_73: -6409080423884071130
+      PlayGlow 1_74: 5963425130981246770
+      PlayGlow 1_75: 3627745253227846810
+      PlayGlow 1_76: -7642671287177282864
+      PlayGlow 1_77: -556383680297362611
+      PlayGlow 1_78: -9014466065224926495
+      PlayGlow 1_79: 1423734574680571139
+      PlayGlow 1_8: -3143139807432555468
+      PlayGlow 1_80: -2057214165981974548
+      PlayGlow 1_81: 6741823502583170829
+      PlayGlow 1_82: -8344056708537806273
+      PlayGlow 1_83: -586410447888933530
+      PlayGlow 1_84: -5486351246480854324
+      PlayGlow 1_85: -5364204807789836961
+      PlayGlow 1_86: 1395761822517499885
+      PlayGlow 1_87: 8261070242662321649
+      PlayGlow 1_88: 4278395105193700577
+      PlayGlow 1_89: 8733383899712636142
+      PlayGlow 1_9: -6944409132488777680
+      PlayGlow 1_90: -38754006619688538
+      PlayGlow 1_91: -119049190539863749
+      PlayGlow 1_92: 7194026600475055836
+      PlayGlow 1_93: 8354809779692834971
+      PlayGlow 1_94: -6817222042158268069
+      PlayGlow 1_95: 6610733707619003836
+      PlayGlow 1_96: 943502954044686654
+      PlayGlow 1_97: -8158346707466356332
+      PlayGlow 1_98: -9183759957512847856
+      PlayGlow 1_99: -4147766148602020665
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

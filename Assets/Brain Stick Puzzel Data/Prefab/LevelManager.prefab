@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1052247135826854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4385873201361412}
+  - component: {fileID: 114893313389252748}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4385873201361412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052247135826854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114893313389252748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052247135826854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d7ed3a1fd1bae4d8438dcd41e53193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PackList:
+  - LevelPackName: Pack 1
+    LevelsPath: Levels\Pack1\
+    TotalLevels: 20
+  - LevelPackName: Pack 2
+    LevelsPath: Levels\Pack2\
+    TotalLevels: 20
+  - LevelPackName: Pack 3
+    LevelsPath: Levels\Pack3\
+    TotalLevels: 20
+  - LevelPackName: Pack 4
+    LevelsPath: Levels\Pack4\
+    TotalLevels: 20
+  - LevelPackName: Pack 5
+    LevelsPath: Levels\Pack5\
+    TotalLevels: 20
+  - LevelPackName: Pack 6
+    LevelsPath: Levels\Pack6\
+    TotalLevels: 20
+  - LevelPackName: Pack 7
+    LevelsPath: Levels\Pack7\
+    TotalLevels: 20
+  - LevelPackName: Pack 8
+    LevelsPath: Levels\Pack8\
+    TotalLevels: 20
+  - LevelPackName: Pack 9
+    LevelsPath: Levels\Pack9\
+    TotalLevels: 20
+  - LevelPackName: Pack 10
+    LevelsPath: Levels\Pack10\
+    TotalLevels: 20
+  - LevelPackName: Pack 11
+    LevelsPath: Levels\Pack11\
+    TotalLevels: 20
+  - LevelPackName: Pack 12
+    LevelsPath: Levels\Pack12\
+    TotalLevels: 20
+  - LevelPackName: Pack 13
+    LevelsPath: Levels\Pack13\
+    TotalLevels: 20
+  - LevelPackName: Pack 14
+    LevelsPath: Levels\Pack14\
+    TotalLevels: 20
+  - LevelPackName: Pack 15
+    LevelsPath: Levels\Pack15\
+    TotalLevels: 20
+  CurrentLevelIndex: 0
+  CurrentLevelPackIndex: 0

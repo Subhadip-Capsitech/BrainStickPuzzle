@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41ee081a9a0a1941b7ab24c856bb113, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  totalRows: 5
+  totalCols: 5
+  TotalMoves: 6
+  TotalShape: 10
+  gameMode: 0
+  gameType: 2
+  matches:
+  - startXY: {x: 0, y: 0}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 0, y: 0}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 0, y: 0}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 1, y: 0}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 1, y: 0}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 1, y: 0}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 2, y: 0}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 2, y: 0}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 2, y: 0}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 3, y: 0}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 3, y: 0}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 0, y: 1}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 0, y: 1}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 1, y: 1}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 1, y: 1}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 1, y: 1}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 2, y: 1}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 2, y: 1}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 2, y: 1}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 3, y: 1}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 3, y: 1}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 3, y: 1}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 4, y: 1}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 0, y: 2}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 0, y: 2}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 0, y: 2}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 1, y: 2}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 1, y: 2}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 1, y: 2}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 2, y: 2}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 2, y: 2}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 2, y: 2}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 3, y: 2}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 3, y: 2}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 0, y: 3}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 0, y: 3}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 1, y: 3}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 1, y: 3}
+    squareSide: 4
+    isEmpty: 1
+  - startXY: {x: 1, y: 3}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 2, y: 3}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 2, y: 3}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 2, y: 3}
+    squareSide: 2
+    isEmpty: 0
+  - startXY: {x: 3, y: 3}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 3, y: 3}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 3, y: 3}
+    squareSide: 2
+    isEmpty: 1
+  - startXY: {x: 4, y: 3}
+    squareSide: 4
+    isEmpty: 0
+  - startXY: {x: 0, y: 4}
+    squareSide: 0
+    isEmpty: 0
+  - startXY: {x: 1, y: 4}
+    squareSide: 0
+    isEmpty: 1
+  - startXY: {x: 2, y: 4}
+    squareSide: 0
+    isEmpty: 0
+  SolvedMatchesIndex: 1800000002000000210000000300000023000000090000002d0000000f0000002e00000014000000300000001a000000
+  Number1: 0
+  Number2: 0
+  Number3: 0
+  EquationSign: 4
