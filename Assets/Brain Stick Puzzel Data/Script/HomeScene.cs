@@ -179,18 +179,18 @@ public class HomeScene : MonoBehaviour
         Sound.instance.PlayButton();
     }
 
-//    public void OnOtherApp()
-//    {
-//#if UNITY_ANDROID
-//        Application.OpenURL("https://play.google.com/store/apps/developer?id=VOODOO");
-//#elif UNITY_IOS
-//        Application.OpenURL("");
-//#else
-//        Application.OpenURL("https://play.google.com/store/apps/developer?id=VOODOO");
-//#endif
+    public void PrivacyButton()
+    {
+#if UNITY_ANDROID
+        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
+#elif UNITY_IOS
+        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
+#else
+        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
+#endif
 
-//        Sound.instance.PlayButton();
-//    }
+        Sound.instance.PlayButton();
+    }
 
     public void GoToPackScreen()
     {
