@@ -156,8 +156,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1260440468674376275, guid: 9980387ed3392614e970fb6fec2a4837,
-    type: 3}
+  m_Sprite: {fileID: 1260440468674376275, guid: 9980387ed3392614e970fb6fec2a4837, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -367,14 +366,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridTr: {fileID: 8596402496697398085}
-  squrePointPrefab: {fileID: 114883390469499262, guid: e4bb9f5fde0c4a742b49bcf2c305ba69,
-    type: 3}
-  triangelPointPrefab: {fileID: 114474123834302984, guid: 764b10ea23a9b4141a50eae8693d39fd,
-    type: 3}
-  m_MatchesPrefab: {fileID: 114055631917072252, guid: 143fd4169672bfb41959f34bc5d53f29,
-    type: 3}
-  m_EquationLevelPrefab: {fileID: 114165250450638994, guid: cc84dea8fa7d6fa4681b38f49f8d8a15,
-    type: 3}
+  squrePointPrefab: {fileID: 114883390469499262, guid: e4bb9f5fde0c4a742b49bcf2c305ba69, type: 3}
+  triangelPointPrefab: {fileID: 114474123834302984, guid: 764b10ea23a9b4141a50eae8693d39fd, type: 3}
+  m_MatchesPrefab: {fileID: 114055631917072252, guid: 143fd4169672bfb41959f34bc5d53f29, type: 3}
+  m_EquationLevelPrefab: {fileID: 114165250450638994, guid: cc84dea8fa7d6fa4681b38f49f8d8a15, type: 3}
   allMatches: []
   currentLevel: {fileID: 0}
 --- !u!1 &5415503164763191508

@@ -1019,14 +1019,14 @@ public class MatchesGrid : MonoBehaviour
         if (isComplete) return;
         isComplete = true;
 
-        // 🟢 Message change depending on success or fail
+       
         if (isSuccess)
         {
-            txtInstructionText.text = "🎉 You have completed the level!";
+            txtInstructionText.text = "You have completed the level!";
         }
         else
         {
-            txtInstructionText.text = "❌ No moves left! Try again.";
+            txtInstructionText.text = "No moves left! Try again.";
         }
 
         Timer.Schedule(this, 0.6f, () =>

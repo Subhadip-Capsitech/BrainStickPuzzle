@@ -21,7 +21,7 @@ public class Matches : MonoBehaviour
         RectTransform matchesRect = GetComponent<RectTransform>();
         matchesRect.position = start.GetComponent<RectTransform>().position;
 
-        // Set angle
+       
         float angle = 0;
         Vector3 dir = end.GetComponent<RectTransform>().position - start.GetComponent<RectTransform>().position;
         dir = end.transform.InverseTransformDirection(dir);
