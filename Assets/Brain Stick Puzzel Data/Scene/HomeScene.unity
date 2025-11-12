@@ -1152,8 +1152,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.000005722046, y: 669.3322}
-  m_SizeDelta: {x: 416.5018, y: 389.3357}
+  m_AnchoredPosition: {x: 23.3699, y: 558.37}
+  m_SizeDelta: {x: 384.0417, y: 389.3357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265796090
 MonoBehaviour:
@@ -1433,7 +1433,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -108, y: -41}
+  m_AnchoredPosition: {x: -108, y: -63}
   m_SizeDelta: {x: 130, y: 130}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &350742910
@@ -1798,8 +1798,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -30}
-  m_SizeDelta: {x: 0, y: -460}
+  m_AnchoredPosition: {x: 0, y: -64.87117}
+  m_SizeDelta: {x: 0, y: -529.7423}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &419954089
 MonoBehaviour:
@@ -1905,7 +1905,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -40.234993}
+  m_AnchoredPosition: {x: 0, y: -40.235107}
   m_SizeDelta: {x: 0, y: -540.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429063555
@@ -2225,7 +2225,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 108.96, y: -41}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 125, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &662674528
 MonoBehaviour:
@@ -3205,8 +3205,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1600}
-  m_SizeDelta: {x: 821, y: 892.4}
+  m_AnchoredPosition: {x: 0, y: -1589.0944}
+  m_SizeDelta: {x: 800.9338, y: 870.5887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1117154890
 MonoBehaviour:
@@ -4081,7 +4081,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 108.95999, y: -41}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 125, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702105738
 MonoBehaviour:
@@ -5251,7 +5251,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -68.04991}
+  m_AnchoredPosition: {x: 0, y: -68.049805}
   m_SizeDelta: {x: 0, y: 289.8998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3172079405460327195
@@ -5414,8 +5414,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -1628}
-  m_SizeDelta: {x: 821, y: 1350}
+  m_AnchoredPosition: {x: 0, y: -1599.3967}
+  m_SizeDelta: {x: 786.21, y: 1292.7935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &5435705104025221244
 PrefabInstance:
@@ -5472,6 +5472,10 @@ PrefabInstance:
     - target: {fileID: 5435705104019136026, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
       propertyPath: m_Name
       value: Google Mobile Ads (ADMOB)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5435705104019136026, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
