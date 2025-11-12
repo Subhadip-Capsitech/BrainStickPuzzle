@@ -20,7 +20,7 @@ public class Screenshot : EditorWindow
 	bool isTransparent = false;
 
 	// Add menu item named "My Window" to the Window menu
-	[MenuItem("Tools/Saad Khawaja/Instant High-Res Screenshot")]
+	[MenuItem("Tools/TheGameWise/Instant High-Res Screenshot")]
 	public static void ShowWindow()
 	{
 		//Show existing window instance. If one doesn't exist, make one.
