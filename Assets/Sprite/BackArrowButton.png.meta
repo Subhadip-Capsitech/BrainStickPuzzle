@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 842c77416f64b754c87993208e46ce9d
+guid: 9a958a9914d3c094eb0cc51cb15b1ef1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4730000969188304387
-    second: Setting Button_0
+      213: -1339322767607880014
+    second: BackArrowButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Setting Button_0
+      name: BackArrowButton_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 14
-        width: 196
-        height: 195
+        x: 12
+        y: 12
+        width: 174
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 306e8b322d654a140800000000000000
-      internalID: 4730000969188304387
+      spriteID: 2b6a325f905c96de0800000000000000
+      internalID: -1339322767607880014
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Setting Button_0: 4730000969188304387
+      BackArrowButton_0: -1339322767607880014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
