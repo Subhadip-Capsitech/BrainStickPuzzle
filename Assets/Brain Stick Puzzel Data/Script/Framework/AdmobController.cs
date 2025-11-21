@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System;
-using GoogleMobileAds;
+using System.Collections;
 using GoogleMobileAds.Api;
+using UnityEngine.SceneManagement;
 
 public class AdmobController : MonoBehaviour
 {
@@ -19,11 +20,13 @@ public class AdmobController : MonoBehaviour
     public string androidRewarded;
     public string iosRewarded;
 
+    [Header("Settings")]
     public int intersitialAdPeriod = 75;
 
     private BannerView bannerView;
     private InterstitialAd interstitialAd;
     private RewardedAd rewardedAd;
+
 
     private void Awake()
     {
@@ -35,6 +38,7 @@ public class AdmobController : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -42,22 +46,23 @@ public class AdmobController : MonoBehaviour
     {
         MobileAds.Initialize(initStatus => { });
 
-#if UNITY_IOS
-        MobileAds.SetiOSAppPauseOnBackground(true);
-#endif
-
-        if (!GameManager.IsAdRemoved)
-        {
-            RequestBanner();
-            RequestInterstitial();
-        }
-
+        RequestBanner();
+        RequestInterstitial();
         RequestRewardedAd();
+
+        // FIX: Recreate banner after every scene load
+        SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    // ----------------------------
-    //  BANNER
-    // ----------------------------
+    private void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+
+    // --------------------------
+    // BANNER
+    // --------------------------
     public void RequestBanner()
     {
 #if UNITY_ANDROID
@@ -71,22 +76,48 @@ public class AdmobController : MonoBehaviour
         if (bannerView != null)
         {
             bannerView.Destroy();
+            bannerView = null;
         }
 
         bannerView = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
 
-        bannerView.OnBannerAdLoaded += () => Debug.Log("Banner loaded");
-        bannerView.OnBannerAdLoadFailed += (LoadAdError error) => Debug.LogError("Banner failed: " + error.GetMessage());
+        bannerView.OnBannerAdLoaded += () =>
+        {
+            Debug.Log("Banner loaded");
+            bannerView.Show();
+        };
 
-        bannerView.LoadAd(CreateAdRequest());
+        bannerView.OnBannerAdLoadFailed += (LoadAdError error) =>
+        {
+            Debug.LogError("Banner load failed: " + error.GetMessage());
+        };
+
+        bannerView.LoadAd(new AdRequest());
     }
 
     public void ShowBanner() => bannerView?.Show();
     public void HideBanner() => bannerView?.Hide();
 
-    // ----------------------------
-    //  INTERSTITIAL
-    // ----------------------------
+
+    // SCENE LOAD FIX
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        StartCoroutine(RecreateBannerDelayed());
+    }
+
+    private IEnumerator RecreateBannerDelayed()
+    {
+        yield return null;       // wait 1 frame
+        yield return null;       // wait 2 frames
+        yield return new WaitForSeconds(0.25f);
+
+        RequestBanner();
+    }
+
+
+    // --------------------------
+    // INTERSTITIAL
+    // --------------------------
     public void RequestInterstitial()
     {
 #if UNITY_ANDROID
@@ -97,11 +128,11 @@ public class AdmobController : MonoBehaviour
         string adUnitId = "unexpected_platform";
 #endif
 
-        InterstitialAd.Load(adUnitId, CreateAdRequest(), (InterstitialAd ad, LoadAdError error) =>
+        InterstitialAd.Load(adUnitId, new AdRequest(), (InterstitialAd ad, LoadAdError error) =>
         {
-            if (error != null || ad == null)
+            if (error != null)
             {
-                Debug.LogError("Failed to load interstitial: " + error);
+                Debug.LogError("Interstitial load failed: " + error);
                 return;
             }
 
@@ -109,7 +140,6 @@ public class AdmobController : MonoBehaviour
 
             interstitialAd.OnAdFullScreenContentClosed += () =>
             {
-                Debug.Log("Interstitial closed");
                 RequestInterstitial();
             };
         });
@@ -117,9 +147,6 @@ public class AdmobController : MonoBehaviour
 
     public void ShowInterstitial()
     {
-        if (GameManager.IsAdRemoved) return;
-        if (Time.time - PlayerPrefs.GetFloat("lastAdmobTime", -9999) < intersitialAdPeriod) return;
-
         if (interstitialAd != null && interstitialAd.CanShowAd())
         {
             interstitialAd.Show();
@@ -127,14 +154,14 @@ public class AdmobController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Interstitial not ready — reloading...");
             RequestInterstitial();
         }
     }
 
-    // ----------------------------
-    //  REWARDED
-    // ----------------------------
+
+    // --------------------------
+    // REWARDED
+    // --------------------------
     public void RequestRewardedAd()
     {
 #if UNITY_ANDROID
@@ -145,11 +172,11 @@ public class AdmobController : MonoBehaviour
         string adUnitId = "unexpected_platform";
 #endif
 
-        RewardedAd.Load(adUnitId, CreateAdRequest(), (RewardedAd ad, LoadAdError error) =>
+        RewardedAd.Load(adUnitId, new AdRequest(), (RewardedAd ad, LoadAdError error) =>
         {
-            if (error != null || ad == null)
+            if (error != null)
             {
-                Debug.LogError("Rewarded failed to load: " + error);
+                Debug.LogError("Rewarded load failed: " + error);
                 return;
             }
 
@@ -157,7 +184,6 @@ public class AdmobController : MonoBehaviour
 
             rewardedAd.OnAdFullScreenContentClosed += () =>
             {
-                Debug.Log("Rewarded closed — reloading...");
                 RequestRewardedAd();
             };
         });
@@ -169,33 +195,12 @@ public class AdmobController : MonoBehaviour
         {
             rewardedAd.Show((Reward reward) =>
             {
-                Debug.Log($"User rewarded: {reward.Amount} {reward.Type}");
                 onRewardEarned?.Invoke();
             });
         }
         else
         {
-            Debug.Log("Rewarded ad not ready yet — reloading...");
             RequestRewardedAd();
         }
-    }
-
-    private AdRequest CreateAdRequest()
-    {
-        AdRequest request = new AdRequest();
-        return request;
-    }
-
-    private void OnApplicationPause(bool pause)
-    {
-        if (!pause)
-        {
-            ShowInterstitial();
-        }
-    }
-
-    public bool IsRewardedAdReady()
-    {
-        return rewardedAd != null && rewardedAd.CanShowAd();
     }
 }
