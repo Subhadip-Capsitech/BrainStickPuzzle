@@ -27,7 +27,6 @@ public class AdmobController : MonoBehaviour
     private InterstitialAd interstitialAd;
     private RewardedAd rewardedAd;
 
-
     private void Awake()
     {
         if (instance == null)
@@ -50,7 +49,6 @@ public class AdmobController : MonoBehaviour
         RequestInterstitial();
         RequestRewardedAd();
 
-        // FIX: Recreate banner after every scene load
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -59,10 +57,7 @@ public class AdmobController : MonoBehaviour
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-
-    // --------------------------
     // BANNER
-    // --------------------------
     public void RequestBanner()
     {
 #if UNITY_ANDROID
@@ -98,8 +93,6 @@ public class AdmobController : MonoBehaviour
     public void ShowBanner() => bannerView?.Show();
     public void HideBanner() => bannerView?.Hide();
 
-
-    // SCENE LOAD FIX
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         StartCoroutine(RecreateBannerDelayed());
@@ -107,17 +100,13 @@ public class AdmobController : MonoBehaviour
 
     private IEnumerator RecreateBannerDelayed()
     {
-        yield return null;       // wait 1 frame
-        yield return null;       // wait 2 frames
+        yield return null;
+        yield return null;
         yield return new WaitForSeconds(0.25f);
-
         RequestBanner();
     }
 
-
-    // --------------------------
     // INTERSTITIAL
-    // --------------------------
     public void RequestInterstitial()
     {
 #if UNITY_ANDROID
@@ -145,8 +134,12 @@ public class AdmobController : MonoBehaviour
         });
     }
 
+    // UPDATED SHOW INTERSTITIAL WITH TIMER + REMOVE ADS CHECK
     public void ShowInterstitial()
     {
+        if (GameManager.IsAdRemoved) return;
+        if (Time.time - PlayerPrefs.GetFloat("lastAdmobTime", -9999) < intersitialAdPeriod) return;
+
         if (interstitialAd != null && interstitialAd.CanShowAd())
         {
             interstitialAd.Show();
@@ -154,14 +147,12 @@ public class AdmobController : MonoBehaviour
         }
         else
         {
+            Debug.Log("Interstitial not ready — reloading...");
             RequestInterstitial();
         }
     }
 
-
-    // --------------------------
     // REWARDED
-    // --------------------------
     public void RequestRewardedAd()
     {
 #if UNITY_ANDROID
