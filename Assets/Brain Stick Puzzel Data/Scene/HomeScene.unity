@@ -5112,10 +5112,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5435705104019136027, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
-      propertyPath: intersitialAdPeriod
-      value: 70
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

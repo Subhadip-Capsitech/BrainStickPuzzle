@@ -883,7 +883,7 @@ public class MatchesGrid : MonoBehaviour
 
         Timer.Schedule(this, 0.6f, () =>
         {
-            Debug.Log("Game Over Popup Open");
+            Debug.Log("Game Win Popup Open");
             afterLevelDonePopUp.Open();
             LevelManager.Intance.SetLevelCompletedInCurrentPack(LevelManager.Intance.CurrentLevelIndex);
         });
