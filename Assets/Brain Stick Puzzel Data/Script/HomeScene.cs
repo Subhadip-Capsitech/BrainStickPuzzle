@@ -112,12 +112,21 @@ public class HomeScene : MonoBehaviour
                 temp.GetComponentsInChildren<Text>()[0].text = LevelManager.Intance.PackList[i].LevelPackName;
                 temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].CompletedLevelInPercent + "% levels";
 
-                Image fillImg = temp.transform.GetChild(3).GetComponent<Image>();
-
+                Image fillImg = temp.transform.GetChild(3).transform.GetChild(0).GetComponent<Image>();
+                Image glow = temp.transform.GetChild(4).transform.GetChild(0).GetComponent<Image>();
                 float completed = LevelManager.Intance.PackList[i].CompletedLevels;
                 float total = LevelManager.Intance.PackList[i].TotalLevels;
 
+
                 fillImg.fillAmount = completed / total;
+                if (completed == total)
+                {
+                    glow.fillAmount = 1;
+                }
+                else
+                {
+                    glow.fillAmount = 0;
+                }
 
 
             }

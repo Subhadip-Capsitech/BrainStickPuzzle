@@ -114,7 +114,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -35}
-  m_SizeDelta: {x: 328, y: 328}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &222308243727272136
 CanvasRenderer:
@@ -144,8 +144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3184052473393078388, guid: 83533d83e5422024182c0c5d8c119295,
-    type: 3}
+  m_Sprite: {fileID: -3184052473393078388, guid: 83533d83e5422024182c0c5d8c119295, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -276,14 +275,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridTr: {fileID: 790721571596075945}
-  squrePointPrefab: {fileID: 114883390469499262, guid: e4bb9f5fde0c4a742b49bcf2c305ba69,
-    type: 3}
-  triangelPointPrefab: {fileID: 114474123834302984, guid: 764b10ea23a9b4141a50eae8693d39fd,
-    type: 3}
-  m_MatchesPrefab: {fileID: 114055631917072252, guid: 143fd4169672bfb41959f34bc5d53f29,
-    type: 3}
-  m_EquationLevelPrefab: {fileID: 114165250450638994, guid: cc84dea8fa7d6fa4681b38f49f8d8a15,
-    type: 3}
+  squrePointPrefab: {fileID: 114883390469499262, guid: e4bb9f5fde0c4a742b49bcf2c305ba69, type: 3}
+  triangelPointPrefab: {fileID: 114474123834302984, guid: 764b10ea23a9b4141a50eae8693d39fd, type: 3}
+  m_MatchesPrefab: {fileID: 114055631917072252, guid: 143fd4169672bfb41959f34bc5d53f29, type: 3}
+  m_EquationLevelPrefab: {fileID: 114165250450638994, guid: cc84dea8fa7d6fa4681b38f49f8d8a15, type: 3}
   allMatches: []
   currentLevel: {fileID: 0}
 --- !u!225 &7427451395777838072

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class WidthLayout : MonoBehaviour {
+public class WidthLayout : MonoBehaviour
+{
 
     public bool padding;
     public float paddingValue;
