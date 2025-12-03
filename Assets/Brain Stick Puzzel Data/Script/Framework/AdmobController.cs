@@ -9,7 +9,7 @@ public class AdmobController : MonoBehaviour
     public static AdmobController instance;
 
     [Header("Banner")]
-    public string androidBanner;
+    string androidBanner = "ca-app-pub-8530302013109448/3323670511";
     public string iosBanner;
 
     [Header("Interstitial")]
@@ -61,7 +61,7 @@ public class AdmobController : MonoBehaviour
     public void RequestBanner()
     {
 #if UNITY_ANDROID
-        string adUnitId = androidBanner.Trim();
+        string adUnitId = androidBanner;
 #elif UNITY_IOS
         string adUnitId = iosBanner.Trim();
 #else

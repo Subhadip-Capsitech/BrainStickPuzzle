@@ -112,8 +112,13 @@ public class HomeScene : MonoBehaviour
                 temp.GetComponentsInChildren<Text>()[0].text = LevelManager.Intance.PackList[i].LevelPackName;
                 temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].CompletedLevelInPercent + "% levels";
 
-                temp.gameObject.transform.GetChild(3).GetComponent<Slider>().maxValue = LevelManager.Intance.PackList[i].TotalLevels;
-                temp.gameObject.transform.GetChild(3).GetComponent<Slider>().value = LevelManager.Intance.PackList[i].CompletedLevels;
+                Image fillImg = temp.transform.GetChild(3).GetComponent<Image>();
+
+                float completed = LevelManager.Intance.PackList[i].CompletedLevels;
+                float total = LevelManager.Intance.PackList[i].TotalLevels;
+
+                fillImg.fillAmount = completed / total;
+
 
             }
             else
@@ -179,18 +184,18 @@ public class HomeScene : MonoBehaviour
         Sound.instance.PlayButton();
     }
 
-    public void PrivacyButton()
-    {
-#if UNITY_ANDROID
-        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
-#elif UNITY_IOS
-        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
-#else
-        Application.OpenURL("http://www.thegamewise.com/privacy-policy/");
-#endif
+    //    public void OnOtherApp()
+    //    {
+    //#if UNITY_ANDROID
+    //        Application.OpenURL("https://play.google.com/store/apps/developer?id=VOODOO");
+    //#elif UNITY_IOS
+    //        Application.OpenURL("");
+    //#else
+    //        Application.OpenURL("https://play.google.com/store/apps/developer?id=VOODOO");
+    //#endif
 
-        Sound.instance.PlayButton();
-    }
+    //        Sound.instance.PlayButton();
+    //    }
 
     public void GoToPackScreen()
     {

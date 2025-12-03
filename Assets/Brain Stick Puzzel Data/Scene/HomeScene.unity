@@ -5061,10 +5061,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5435705104019136020, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
-      propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435705104019136020, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -5107,10 +5103,6 @@ PrefabInstance:
     - target: {fileID: 5435705104019136026, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
       propertyPath: m_Name
       value: Google Mobile Ads (ADMOB)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5435705104019136026, guid: f217872431529f645aa8ebca7e2284f0, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
