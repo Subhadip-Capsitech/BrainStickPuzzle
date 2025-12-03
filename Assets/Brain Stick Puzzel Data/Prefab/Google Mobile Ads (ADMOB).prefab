@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6d8250ea4982a240ac673b9288b59a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  androidBanner: ca-app-pub-8530302013109448/3206575859
+  androidBanner: ca-app-pub-8530302013109448/3323670511
   iosBanner: ca-app-pub-8530302013109448/3323670511
   androidInterstitial: ca-app-pub-8530302013109448/8711728567
   iosInterstitial: ca-app-pub-8530302013109448/8538793587
