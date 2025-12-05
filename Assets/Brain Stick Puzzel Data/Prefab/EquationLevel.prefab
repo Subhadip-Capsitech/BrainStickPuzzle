@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92cf232c85dde02408a708d62f7748aa, type: 3}
+  m_Sprite: {fileID: -1824431264871467004, guid: 19dad3075e521bc4caed6173b5d4fc10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -383,10 +383,8 @@ MonoBehaviour:
   Number2: {fileID: 224731283475253924}
   Number3: {fileID: 224061941416804428}
   OpratorTransform: {fileID: 224319465301938150}
-  DigitPrefab: {fileID: 114592701109376762, guid: 691da5d3a8569b940b4073bb4425ae76,
-    type: 3}
-  OpratorPrefab: {fileID: 114887472937705792, guid: b96a157b215b5d44b8b7e229421965fe,
-    type: 3}
+  DigitPrefab: {fileID: 114592701109376762, guid: 691da5d3a8569b940b4073bb4425ae76, type: 3}
+  OpratorPrefab: {fileID: 114887472937705792, guid: b96a157b215b5d44b8b7e229421965fe, type: 3}
   Num1: 
   Num2: 
   Num3: 
@@ -597,7 +595,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92cf232c85dde02408a708d62f7748aa, type: 3}
+  m_Sprite: {fileID: -1824431264871467004, guid: 19dad3075e521bc4caed6173b5d4fc10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

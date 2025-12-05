@@ -1,17 +1,17 @@
-﻿using System.Collections.Generic;
+﻿using MS;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
-using MS;
-using System.Linq;
 
 public class MatchesGrid : MonoBehaviour
 {
     public static MatchesGrid Instance;
-
+   
     private int rows;
     private int cols;
     private Vector2 gridSize;
-    private float cellSize = 200f;
+    public float cellSize = 200f;
 
     public RectTransform rootCanvas;
     public PointClass squrePointPrefab, triangelPointPrefab;
@@ -45,7 +45,7 @@ public class MatchesGrid : MonoBehaviour
         get { return usedMoves; }
         set { usedMoves = value; txtNumMove.text = value + "/" + currentLevel.TotalMoves; }
     }
-   
+
     void Start()
     {
         Instance = this;
@@ -65,7 +65,7 @@ public class MatchesGrid : MonoBehaviour
 
         Music.instance.PlayAMusic();
     }
-
+    #region Level Setup
     void SetupLevel()
     {
         GameManager.CurrentLevelData = Resources.Load<LevelData>(LevelManager.Intance.CurrentLevelPack.LevelsPath + LevelManager.Intance.CurrentLevelIndex);
@@ -157,7 +157,9 @@ public class MatchesGrid : MonoBehaviour
             }
         }
     }
+    #endregion
 
+    #region Equation/Tringle..Ect Level Setup
     void EquationLevel()
     {
         equationData = Instantiate(m_EquationLevelPrefab, transform);
@@ -334,8 +336,17 @@ public class MatchesGrid : MonoBehaviour
     {
         Matches m_Matches = Instantiate(m_MatchesPrefab, transform);
         m_Matches.transform.localScale = Vector3.one;
+
         m_Matches.start = start;
         m_Matches.end = end;
+
+        // 🔥 AUTO-CREATE CHILD MATCH IF MISSING
+        if (!isEmpty && m_Matches.childMatch == null)
+        {
+            m_Matches.childMatch = Instantiate(m_ChildMatchPrefab, m_Matches.transform);
+            m_Matches.childMatch.transform.localPosition = Vector3.zero;
+        }
+
         m_Matches.Load(isEmpty);
         return m_Matches;
     }
@@ -424,6 +435,9 @@ public class MatchesGrid : MonoBehaviour
             }
         }
     }
+    #endregion
+
+    #region Spawn Matches
 
     void SpawnChildMatches(int noOfSpawn)
     {
@@ -442,6 +456,9 @@ public class MatchesGrid : MonoBehaviour
             m_MatchesFill.transform.localScale = scale;
         }
     }
+    #endregion
+
+    #region OnClick Match
 
     public void OnClickMatch(Matches _match, bool isCheckTweenRunning = true)
     {
@@ -479,13 +496,13 @@ public class MatchesGrid : MonoBehaviour
             if (currentLevel.gameMode == GameMode.Remove)
             {
                 UsedMoves++;
-                
+
             }
             else if (currentLevel.gameMode == GameMode.Add)
             {
                 UsedMoves--;
             }
-           
+
             else if (currentLevel.gameMode == GameMode.Move)
             {
                 if (_match.isReserved)
@@ -521,7 +538,7 @@ public class MatchesGrid : MonoBehaviour
                 {
                     UsedMoves++;
                 }
-                else if(currentLevel.TotalMoves==UsedMoves)
+                else if (currentLevel.TotalMoves == UsedMoves)
                 {
                     CheckIsLevelCompleted();
                 }
@@ -536,8 +553,11 @@ public class MatchesGrid : MonoBehaviour
         }
         objectiveHandlerScript.UpdateObjectivePopup();
     }
+    #endregion
 
-    private int GetNumEmptyReservedMatches()
+
+    
+    public int GetNumEmptyReservedMatches()
     {
         return allMatches.FindAll(x => x.IsPlaced() == false && x.isReserved).Count;
     }
@@ -821,7 +841,7 @@ public class MatchesGrid : MonoBehaviour
         return digits;
     }
 
-    void CheckIsLevelCompleted()
+    public void CheckIsLevelCompleted()
     {
         if (currentLevel.gameType == GameType.Square)
         {
@@ -851,8 +871,6 @@ public class MatchesGrid : MonoBehaviour
                         return;
                     }
                 }
-
-                // ❌ Game Over for triangle
                 GameOver(false);
             }
         }
@@ -866,7 +884,6 @@ public class MatchesGrid : MonoBehaviour
                     return;
                 }
 
-                // ❌ Equation not solved — Game Over
                 GameOver(false);
             }
         }
@@ -1019,7 +1036,7 @@ public class MatchesGrid : MonoBehaviour
         if (isComplete) return;
         isComplete = true;
 
-       
+
         if (isSuccess)
         {
             txtInstructionText.text = "You have completed the level!";
@@ -1048,6 +1065,99 @@ public class MatchesGrid : MonoBehaviour
         });
 
         PlayerPrefs.SetInt("played_game", 1);
+    }
+
+    public void RearrangeInventory()
+    {
+        for (int i = 0; i < listNewMatches.Count; i++)
+        {
+            GameObject stick = listNewMatches[i];
+            if (!stick) continue;
+
+            // Smooth slot position
+            Vector3 target = (i * Vector3.right * 50f);
+
+            LeanTween.moveLocal(stick, target, 0.25f).setEase(LeanTweenType.easeInOutSine);
+            LeanTween.rotateLocal(stick, new Vector3(0, 0, 60f), 0.2f);
+        }
+    }
+
+    public void RemoveMatch(Matches _match)
+    {
+        if (!_match.IsRemovable) return;
+
+        if (currentLevel.gameMode == GameMode.Remove && UsedMoves == currentLevel.TotalMoves)
+            return;
+
+        if (currentLevel.gameMode == GameMode.Move)
+        {
+            if (_match.isReserved && GetNumEmptyReservedMatches() == currentLevel.TotalMoves)
+                return;
+
+            _match.SetSprite(Assets.instance.matchNormal);
+        }
+
+        GameObject child = _match.GetChild();
+        listNewMatches.Add(child);
+
+        child.transform.SetParent(listMatchTransform);
+
+        LeanTween.rotateZ(child, 60f, .2f).setEase(LeanTweenType.easeInOutSine);
+        LeanTween.moveLocal(child, (listNewMatches.Count - 1) * Vector3.right * 50f, .3f);
+
+        var scale = (200f / cellSize) * Vector3.one;
+        LeanTween.scale(child, scale, 0.2f);
+
+        _match.childMatch = null;
+
+        if (currentLevel.gameMode == GameMode.Remove)
+            UsedMoves++;
+        else if (currentLevel.gameMode == GameMode.Add)
+            UsedMoves--;
+        else if (currentLevel.gameMode == GameMode.Move)
+        {
+            if (_match.isReserved)
+            {
+                _match.GetComponent<Image>().color =
+                    currentLevel.gameType == GameType.Equation ?
+                    matchMovedColorInEquation : matchMovedColor;
+            }
+
+            UsedMoves = GetNumEmptyReservedMatches() - listNewMatches.Count;
+        }
+
+        CheckIsLevelCompleted();
+        objectiveHandlerScript.UpdateObjectivePopup();
+    }
+
+    public void AddMatch(Matches _match)
+    {
+        if (listNewMatches.Count == 0) return;
+
+        GameObject last = listNewMatches[listNewMatches.Count - 1];
+
+        last.transform.SetParent(_match.transform);
+
+        LeanTween.scale(last, Vector3.one, 0.2f);
+        LeanTween.moveLocal(last, Vector3.zero, .3f).setEase(LeanTweenType.easeInOutSine);
+        LeanTween.rotateLocal(last, Vector3.zero, .2f).setEase(LeanTweenType.easeInOutSine);
+
+        _match.childMatch = last;
+
+        listNewMatches.RemoveAt(listNewMatches.Count - 1);
+
+        if (currentLevel.gameMode == GameMode.Remove)
+            UsedMoves--;
+        else if (currentLevel.gameMode == GameMode.Add)
+            UsedMoves++;
+        else if (currentLevel.gameMode == GameMode.Move)
+        {
+            _match.SetSprite(_match.isReserved ? Assets.instance.matchNormal : Assets.instance.matchMoved);
+            UsedMoves = GetNumEmptyReservedMatches() - listNewMatches.Count;
+        }
+
+        CheckIsLevelCompleted();
+        objectiveHandlerScript.UpdateObjectivePopup();
     }
 
 }

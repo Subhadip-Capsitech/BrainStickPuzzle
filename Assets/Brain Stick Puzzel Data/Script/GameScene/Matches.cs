@@ -3,6 +3,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Image))]
 public class Matches : MonoBehaviour
 {
+    public static Matches Instance;
     [HideInInspector]
     public PointClass start, end;
     public GameObject childMatch;
@@ -96,4 +97,6 @@ public class Matches : MonoBehaviour
     {
         MatchesGrid.Instance.OnClickMatch(this);
     }
+
+
 }

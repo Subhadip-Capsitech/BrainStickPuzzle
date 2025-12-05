@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 224082301058545290}
   - component: {fileID: 222691442626769564}
   - component: {fileID: 114836107996500932}
+  - component: {fileID: 1108250095007740483}
   m_Layer: 5
   m_Name: FillMatches
   m_TagString: Untagged
@@ -65,8 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1824431264871467004, guid: 19dad3075e521bc4caed6173b5d4fc10,
-    type: 3}
+  m_Sprite: {fileID: -1824431264871467004, guid: 19dad3075e521bc4caed6173b5d4fc10, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -76,3 +76,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1108250095007740483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695097371150996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5057f10542212d14c932866a951411a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  match: {fileID: 0}

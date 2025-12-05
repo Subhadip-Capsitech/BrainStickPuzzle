@@ -254,7 +254,7 @@ public class LevelButton : MonoBehaviour
         m_Matches.start = start;
         m_Matches.end = end;
         m_Matches.Load(isEmpty);
-        m_Matches.GetComponent<Button>().enabled = false;
+      
         return m_Matches;
     }
 
