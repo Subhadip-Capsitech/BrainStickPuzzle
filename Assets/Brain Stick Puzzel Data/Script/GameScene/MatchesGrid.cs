@@ -79,7 +79,7 @@ public class MatchesGrid : MonoBehaviour
             currentLevel = GameManager.CurrentLevelData;
         }
 
-        txtLevelNo.text = (LevelManager.Intance.CurrentLevelIndex + 1) + "";
+        txtLevelNo.text = "Level-"+(LevelManager.Intance.CurrentLevelIndex + 1) + "";
         gameOverTitleTxt.text = "Level " + (LevelManager.Intance.CurrentLevelIndex + 1);
         UsedMoves = 0;
 

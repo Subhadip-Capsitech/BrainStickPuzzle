@@ -174,12 +174,12 @@ public class HomeScene : MonoBehaviour
             else if (LevelManager.Intance.CurrentLevelPack.CompletedLevels < i)
             {
                 Button temp = Instantiate(LS_LockedItem, LS_Container);
-                temp.GetComponentsInChildren<Text>()[0].text = "Level " + (i + 1);
+                //temp.GetComponentsInChildren<Text>()[0].text = "Level " + (i + 1);
             }
             else
             {
                 Button temp = Instantiate(LS_PlayingItem, LS_Container);
-                temp.GetComponentsInChildren<Text>()[0].text = "Level " + (i + 1);
+                temp.GetComponentsInChildren<Text>()[0].text =(i + 1).ToString();
                 temp.onClick.AddListener(() => OnPlayUnlockedLevel(index));
             }
         }
