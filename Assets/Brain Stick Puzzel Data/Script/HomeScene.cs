@@ -110,10 +110,10 @@ public class HomeScene : MonoBehaviour
                 Button temp = Instantiate(LPS_UnlockedItem, LPS_Container);
                 temp.onClick.AddListener(() => OnUnLockLevelPack(index));
                 temp.GetComponentsInChildren<Text>()[0].text = LevelManager.Intance.PackList[i].LevelPackName;
-                temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].CompletedLevelInPercent + "% levels";
+               // temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].CompletedLevelInPercent + "% levels";
 
-                Image fillImg = temp.transform.GetChild(3).transform.GetChild(0).GetComponent<Image>();
-                Image glow = temp.transform.GetChild(4).transform.GetChild(0).GetComponent<Image>();
+                Image fillImg = temp.transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
+                Image glow = temp.transform.GetChild(1).transform.GetChild(0).GetComponent<Image>();
                 float completed = LevelManager.Intance.PackList[i].CompletedLevels;
                 float total = LevelManager.Intance.PackList[i].TotalLevels;
 
@@ -134,7 +134,7 @@ public class HomeScene : MonoBehaviour
             {
                 Button temp = Instantiate(LPS_LockedItem, LPS_Container);
                 temp.GetComponentsInChildren<Text>()[0].text = LevelManager.Intance.PackList[i].LevelPackName;
-                temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].TotalLevels + " levels";
+              //  temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].TotalLevels + " levels";
             }
         }
     }
