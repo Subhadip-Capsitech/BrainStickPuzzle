@@ -1,6 +1,7 @@
 ﻿using MS;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -31,7 +32,8 @@ public class MatchesGrid : MonoBehaviour
     public Popup gameOverPopUp;
     public Popup hintPopup;
     public Text gameOverTitleTxt;
-    public Text txtNumMove, txtLevelNo, txtInstructionText, hintTotalTxt;
+    public Text txtNumMove, hintTotalTxt;
+    public TextMeshProUGUI txtInstructionText, txtLevelNo;
     public Color matchMovedColor, matchMovedColorInEquation;
     EquationLevelData equationData;
     public ObjectiveHandler objectiveHandlerScript;
@@ -983,7 +985,9 @@ public class MatchesGrid : MonoBehaviour
         }
         else
         {
-            hintPopup.Open();
+           RewardedVideoButton.Instance.OnClick();
+
+
         }
     }
 

@@ -1,37 +1,69 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using GoogleMobileAds.Api;
 
 public class RewardedVideoButton : MonoBehaviour
 {
+    public static RewardedVideoButton Instance;
     private RewardedAd rewardedAd;
-    private string adUnitId = "ca-app-pub-3940256099942544/5224354917"; // Test Ad Unit ID
+
+    private string adUnitId = "ca-app-pub-3940256099942544/5224354917"; // Test ID
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
-        MobileAds.Initialize(initStatus => { LoadRewardedAd(); });
+        MobileAds.Initialize(init => LoadRewardedAd());
+    }
+
+    public bool IsReady()
+    {
+        return rewardedAd != null && rewardedAd.CanShowAd();
+    }
+
+    public void ForceLoad()
+    {
+        LoadRewardedAd();
     }
 
     private void LoadRewardedAd()
     {
         Debug.Log("Loading rewarded ad...");
 
-        var adRequest = new AdRequest(); // ✅ No Builder() anymore
+        rewardedAd = null;  // reset
 
-        RewardedAd.Load(adUnitId, adRequest, (RewardedAd ad, LoadAdError error) =>
+        var request = new AdRequest(); // no Builder()
+
+        RewardedAd.Load(adUnitId, request, (RewardedAd ad, LoadAdError error) =>
         {
             if (error != null || ad == null)
             {
-                Debug.LogError("Rewarded ad failed to load: " + error);
-                rewardedAd = null;
+                Debug.LogError("Failed to load rewarded ad: " + error);
                 return;
             }
 
             rewardedAd = ad;
-            Debug.Log("Rewarded ad loaded successfully.");
+            Debug.Log("Rewarded ad loaded.");
 
-            RegisterEventHandlers(ad);
+            RegisterAdEvents(ad);
         });
+    }
+
+    private void RegisterAdEvents(RewardedAd ad)
+    {
+        ad.OnAdFullScreenContentClosed += () =>
+        {
+            Debug.Log("Rewarded ad closed → Loading new one");
+            LoadRewardedAd();
+        };
+
+        ad.OnAdFullScreenContentFailed += (AdError error) =>
+        {
+            Debug.LogError("Ad failed to show: " + error);
+            LoadRewardedAd();
+        };
     }
 
     public void OnClick()
@@ -42,32 +74,13 @@ public class RewardedVideoButton : MonoBehaviour
             {
                 int amount = 2;
                 GameManager.Hints += amount;
-                Toast.instance.ShowMessage($"You've received {amount} hints!");
+                Toast.instance.ShowMessage($"You received {amount} hints!");
             });
         }
         else
         {
-            Toast.instance.ShowMessage("Ad not ready, loading again...");
+            Toast.instance.ShowMessage("Ad loading... please wait.");
             LoadRewardedAd();
         }
-    }
-
-    private void RegisterEventHandlers(RewardedAd ad)
-    {
-        ad.OnAdFullScreenContentClosed += () =>
-        {
-            Debug.Log("Ad closed. Loading a new one...");
-            LoadRewardedAd();
-        };
-
-        ad.OnAdFullScreenContentFailed += (AdError error) =>
-        {
-            Debug.LogError("Ad failed to show: " + error);
-            LoadRewardedAd();
-        };
-
-        ad.OnAdClicked += () => Debug.Log("Ad clicked");
-        ad.OnAdImpressionRecorded += () => Debug.Log("Ad impression recorded");
-        ad.OnAdPaid += (AdValue adValue) => Debug.Log("Ad paid: " + adValue.Value);
     }
 }

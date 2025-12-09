@@ -1,8 +1,9 @@
-﻿using System.Collections;
+﻿using MS;
+using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using MS;
 
 public class HomeScene : MonoBehaviour
 {
@@ -109,8 +110,11 @@ public class HomeScene : MonoBehaviour
             {
                 Button temp = Instantiate(LPS_UnlockedItem, LPS_Container);
                 temp.onClick.AddListener(() => OnUnLockLevelPack(index));
-                temp.GetComponentsInChildren<Text>()[0].text = LevelManager.Intance.PackList[i].LevelPackName;
-               // temp.GetComponentsInChildren<Text>()[1].text = LevelManager.Intance.PackList[i].CompletedLevelInPercent + "% levels";
+                var texts = temp.GetComponentsInChildren<TextMeshProUGUI>();
+
+               // texts[0].text = LevelManager.Intance.PackList[i].LevelPackName;
+                texts[0].text = LevelManager.Intance.PackList[i].CompletedLevels.ToString();
+
 
                 Image fillImg = temp.transform.GetChild(1).transform.GetChild(0).transform.GetChild(0).GetComponent<Image>();
                 Image glow = temp.transform.GetChild(1).transform.GetChild(0).GetComponent<Image>();
@@ -168,7 +172,7 @@ public class HomeScene : MonoBehaviour
             if (LevelManager.Intance.CurrentLevelPack.CompletedLevels > i)
             {
                 Button temp = Instantiate(LS_PlayedItem, LS_Container);
-                temp.GetComponentsInChildren<Text>()[0].text = "Level " + (i + 1);
+                temp.transform.GetChild(0).transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = (i + 1).ToString();
                 temp.onClick.AddListener(() => OnPlayUnlockedLevel(index));
             }
             else if (LevelManager.Intance.CurrentLevelPack.CompletedLevels < i)
@@ -179,7 +183,7 @@ public class HomeScene : MonoBehaviour
             else
             {
                 Button temp = Instantiate(LS_PlayingItem, LS_Container);
-                temp.GetComponentsInChildren<Text>()[0].text =(i + 1).ToString();
+                temp.transform.GetChild(0).transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = (i + 1).ToString();
                 temp.onClick.AddListener(() => OnPlayUnlockedLevel(index));
             }
         }
