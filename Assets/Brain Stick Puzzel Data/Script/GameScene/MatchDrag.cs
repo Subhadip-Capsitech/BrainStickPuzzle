@@ -66,12 +66,12 @@ public class MatchDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
         // CASE 1: Dropped on valid empty slot
         if (target != null && target.GetChild() == null)
         {
-            MatchesGrid.Instance.AddMatch(target);
+            MatchesGrid.Instance.MoveMatch(match, target, draggedChild);
         }
         else
         {
-            // Case 2: Go back to inventory
-            ReturnToInventory();
+            // CASE 2: Return back to inventory
+            MatchesGrid.Instance.ReturnToInventory(draggedChild);
         }
 
         MatchesGrid.Instance.RearrangeInventory();
@@ -104,4 +104,5 @@ public class MatchDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, 
     {
         draggedChild.SetParent(MatchesGrid.Instance.listMatchTransform);
     }
+
 }

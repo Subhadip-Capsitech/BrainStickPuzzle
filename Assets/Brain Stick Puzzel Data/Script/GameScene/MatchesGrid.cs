@@ -577,7 +577,6 @@ public class MatchesGrid : MonoBehaviour
         return true;
     }
 
-    //so you can see the width and height of the grid on editor
     void OnDrawGizmos()
     {
         Gizmos.DrawWireCube(transform.position, gridSize);
@@ -1163,5 +1162,83 @@ public class MatchesGrid : MonoBehaviour
         CheckIsLevelCompleted();
         objectiveHandlerScript.UpdateObjectivePopup();
     }
+
+    public void ReturnToInventory(RectTransform dragged)
+    {
+        dragged.SetParent(listMatchTransform);
+
+        // put at end of list
+        listNewMatches.Add(dragged.gameObject);
+
+        // inventory animation
+        int index = listNewMatches.Count - 1;
+        Vector3 target = (index * Vector3.right * 50f);
+
+        LeanTween.moveLocal(dragged.gameObject, target, 0.25f)
+            .setEase(LeanTweenType.easeInOutSine);
+
+        LeanTween.rotateLocal(dragged.gameObject, new Vector3(0, 0, 60f), 0.2f);
+    }
+
+    public void MoveMatch(Matches fromSlot, Matches toSlot, RectTransform dragged)
+    {
+        // ----------------------------------------------
+        // 1. REMOVE FROM OLD SLOT
+        // ----------------------------------------------
+        GameObject child = fromSlot.childMatch;
+        fromSlot.childMatch = null;
+
+        // If this was a reserved match in MOVE mode,
+        // restore color
+        if (currentLevel.gameMode == GameMode.Move && fromSlot.isReserved)
+        {
+            fromSlot.SetSprite(Assets.instance.matchNormal);
+        }
+
+        // ----------------------------------------------
+        // 2. PLACE INTO NEW SLOT
+        // ----------------------------------------------
+        dragged.SetParent(toSlot.transform);
+        toSlot.childMatch = dragged.gameObject;
+
+        // Animate to proper position
+        LeanTween.moveLocal(dragged.gameObject, Vector3.zero, 0.25f)
+            .setEase(LeanTweenType.easeInOutSine);
+
+        LeanTween.rotateLocal(dragged.gameObject, Vector3.zero, 0.2f)
+            .setEase(LeanTweenType.easeInOutSine);
+
+        LeanTween.scale(dragged.gameObject, Vector3.one, 0.2f);
+
+        // ----------------------------------------------
+        // 3. UPDATE USED MOVES
+        // ----------------------------------------------
+        if (currentLevel.gameMode == GameMode.Add)
+        {
+            UsedMoves++;
+            listNewMatches.Remove(dragged.gameObject);
+        }
+        else if (currentLevel.gameMode == GameMode.Remove)
+        {
+            UsedMoves--;
+            listNewMatches.Remove(dragged.gameObject);
+        }
+        else if (currentLevel.gameMode == GameMode.Move)
+        {
+            // reserved match becoming placed
+            if (toSlot.isReserved)
+                toSlot.SetSprite(Assets.instance.matchMoved);
+
+            // Update move count exactly like click system:
+            UsedMoves = GetNumEmptyReservedMatches() - listNewMatches.Count;
+        }
+
+        // ----------------------------------------------
+        // 4. CHECK COMPLETION
+        // ----------------------------------------------
+        CheckIsLevelCompleted();
+        objectiveHandlerScript.UpdateObjectivePopup();
+    }
+
 
 }
